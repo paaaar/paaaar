@@ -1,0 +1,8 @@
+---
+- name: check server
+  hosts: paarkh
+  remote_user: paar
+
+  tasks:
+  - name: test login
+
